@@ -91,8 +91,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=VarshuDev&show_icons=true&theme=tokyonight&bg_color=08090d&title_color=ff2a5f&icon_color=38bdf8&text_color=cbd5e1&border_color=1e2538&hide_border=false" alt="VarshuDev GitHub Stats" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=VarshuDev&theme=tokyonight&background=08090d&ring=ff2a5f&fire=ff2a5f&currStreakLabel=ff2a5f&currStreakNum=ffffff&sideLabels=38bdf8&sideNums=ffffff&border=1e2538" alt="GitHub Streak" height="165" />
+<img src="https://github-readme-stats-fast.vercel.app/api?username=VarshuDev&show_icons=true&theme=tokyonight&bg_color=08090d&title_color=ff2a5f&icon_color=38bdf8&text_color=cbd5e1&border_color=1e2538&hide_border=false" alt="VarshuDev GitHub Stats" height="165" />
+<img src="https://streak-stats.demolab.com/?user=VarshuDev&theme=tokyonight&background=08090d&ring=ff2a5f&fire=ff2a5f&currStreakLabel=ff2a5f&currStreakNum=ffffff&sideLabels=38bdf8&sideNums=ffffff&border=1e2538" alt="GitHub Streak" height="165" />
 
 </div>
 
