@@ -1,146 +1,143 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 310" width="100%" height="100%">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05070f" />
-      <stop offset="40%" stop-color="#0a1024" />
-      <stop offset="80%" stop-color="#060914" />
-      <stop offset="100%" stop-color="#03050a" />
+    <!-- Deep phantom obsidian ambient glow -->
+    <radialGradient id="phantom-glow" cx="25%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#ff2a5f" stop-opacity="0.22"/>
+      <stop offset="40%" stop-color="#38bdf8" stop-opacity="0.12"/>
+      <stop offset="80%" stop-color="#08090d" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Crimson & Cyan Laser Beam -->
+    <linearGradient id="cyber-beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#ff2a5f" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#e11d48" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Neon Header Gradient -->
-    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ccff00" />
-      <stop offset="45%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#a855f7" />
-    </linearGradient>
-
-    <!-- Border Gradient -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ccff00" stop-opacity="0.8" />
-      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.3" />
-      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#ccff00" stop-opacity="0.6" />
-    </linearGradient>
-
-    <!-- Grid Pattern -->
-    <pattern id="cyberGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#38bdf8" stroke-width="0.75" stroke-opacity="0.07" />
-      <circle cx="30" cy="30" r="1" fill="#ccff00" fill-opacity="0.15" />
+    <!-- Background Cybernetic Circuit Pattern -->
+    <pattern id="pcb-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#141824" stroke-width="0.8" opacity="0.6"/>
+      <circle cx="0" cy="0" r="1.2" fill="#222b40" opacity="0.8"/>
     </pattern>
 
-    <!-- Radial Glows -->
-    <radialGradient id="glowTopLeft" cx="10%" cy="10%" r="50%">
-      <stop offset="0%" stop-color="#ccff00" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="glowBottomRight" cx="90%" cy="90%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
+    <!-- Clip card border -->
+    <clipPath id="card-clip">
+      <rect width="920" height="310" rx="16"/>
+    </clipPath>
 
     <style>
-      @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0.3; }
+      @keyframes sweep {
+        0% { transform: translateX(-920px); }
+        100% { transform: translateX(920px); }
       }
-      @keyframes scanline {
-        0% { transform: translateY(-280px); }
-        100% { transform: translateY(280px); }
+      @keyframes pulse-red {
+        0%, 100% { opacity: 1; filter: drop-shadow(0 0 6px rgba(255, 42, 95, 0.8)); }
+        50% { opacity: 0.35; filter: drop-shadow(0 0 2px rgba(255, 42, 95, 0.2)); }
       }
-      @keyframes pulseGlow {
-        0%, 100% { filter: drop-shadow(0 0 12px rgba(204, 255, 0, 0.4)); }
-        50% { filter: drop-shadow(0 0 24px rgba(56, 189, 248, 0.6)); }
+      @keyframes glitch-glow {
+        0%, 100% { filter: drop-shadow(0 0 4px rgba(255, 42, 95, 0.6)); }
+        50% { filter: drop-shadow(0 0 10px rgba(255, 42, 95, 0.95)); }
       }
-      .hud-title {
-        font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-        font-weight: 900;
-        letter-spacing: 4px;
-        animation: pulseGlow 4s ease-in-out infinite;
+      .laser-sweep {
+        animation: sweep 3.4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
       }
-      .hud-tag {
-        font-family: 'JetBrains Mono', 'Fira Code', monospace;
-        font-size: 11px;
-        letter-spacing: 1.5px;
+      .red-beacon {
+        animation: pulse-red 1.6s ease-in-out infinite;
       }
-      .live-dot {
-        animation: blink 1.6s infinite ease-in-out;
+      .glitch-crack {
+        animation: glitch-glow 2s ease-in-out infinite;
       }
     </style>
   </defs>
 
-  <!-- Card Background -->
-  <rect width="900" height="280" rx="16" fill="url(#bg)" stroke="url(#borderGrad)" stroke-width="1.5" />
-  <rect width="900" height="280" rx="16" fill="url(#cyberGrid)" />
-  <rect width="900" height="280" rx="16" fill="url(#glowTopLeft)" />
-  <rect width="900" height="280" rx="16" fill="url(#glowBottomRight)" />
+  <!-- Base background -->
+  <rect width="920" height="310" rx="16" fill="#08090d"/>
+  <rect width="920" height="310" rx="16" fill="url(#pcb-grid)"/>
+  <rect width="920" height="310" rx="16" fill="url(#phantom-glow)"/>
 
-  <!-- Corner HUD Accents -->
-  <!-- Top-Left -->
-  <path d="M 12 32 L 12 12 L 32 12" fill="none" stroke="#ccff00" stroke-width="2.5" stroke-linecap="round" />
-  <!-- Top-Right -->
-  <path d="M 868 12 L 888 12 L 888 32" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
-  <!-- Bottom-Left -->
-  <path d="M 12 248 L 12 268 L 32 268" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
-  <!-- Bottom-Right -->
-  <path d="M 868 268 L 888 268 L 888 248" fill="none" stroke="#ccff00" stroke-width="2.5" stroke-linecap="round" />
-
-  <!-- Top System Status Bar -->
-  <g transform="translate(36, 38)">
-    <!-- Terminal prompt pill -->
-    <rect x="0" y="0" width="138" height="24" rx="12" fill="#0d1527" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
-    <circle cx="14" cy="12" r="4.5" fill="#ccff00" class="live-dot" />
-    <text x="26" y="16" fill="#ccff00" class="hud-tag" font-weight="700">KERNEL v3.0</text>
-
-    <!-- Node telemetry -->
-    <text x="156" y="16" fill="#64748b" class="hud-tag">// SYSTEM: ONLINE</text>
-    <text x="330" y="16" fill="#64748b" class="hud-tag">// NODE: VELORIO-OPS</text>
-    <text x="520" y="16" fill="#64748b" class="hud-tag">// ZERO-YAP DEPLOYMENT</text>
-
-    <!-- Right-aligned Status -->
-    <rect x="716" y="0" width="112" height="24" rx="6" fill="#0c191a" stroke="#ccff00" stroke-width="1" stroke-opacity="0.5" />
-    <text x="772" y="16" fill="#ccff00" class="hud-tag" text-anchor="middle" font-weight="700">PROD READY</text>
+  <!-- Top animated laser beam border -->
+  <g clip-path="url(#card-clip)">
+    <rect x="0" y="0" width="920" height="1" fill="#1b1e2e"/>
+    <rect class="laser-sweep" x="0" y="0" width="460" height="2.5" fill="url(#cyber-beam)"/>
   </g>
 
-  <!-- Divider Line -->
-  <line x1="36" y1="74" x2="864" y2="74" stroke="#1e293b" stroke-width="1" />
-  <line x1="36" y1="74" x2="160" y2="74" stroke="#ccff00" stroke-width="1.5" />
+  <!-- Corner Precision Accents -->
+  <path d="M 24 36 L 24 24 L 36 24" fill="none" stroke="#252b3d" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 896 36 L 896 24 L 884 24" fill="none" stroke="#252b3d" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 24 274 L 24 286 L 36 286" fill="none" stroke="#252b3d" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 896 274 L 896 286 L 884 286" fill="none" stroke="#252b3d" stroke-width="1.5" stroke-linecap="round"/>
 
-  <!-- Main Hero Brand & Identity -->
-  <g transform="translate(450, 138)" text-anchor="middle">
-    <!-- Big Cyber Title -->
-    <text x="0" y="0" font-size="44" fill="url(#neonGlow)" class="hud-title">VARSHU DEV</text>
-    
-    <!-- Subtitle / Title Description -->
-    <text x="0" y="32" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="600" fill="#f8fafc" letter-spacing="2px">
-      SOFTWARE ARCHITECT • SYSTEMS ENGINEER • SECURITY RESEARCHER
-    </text>
-
-    <!-- Punchy Gen Z Mission Statement -->
-    <text x="0" y="56" font-family="'Inter', system-ui, sans-serif" font-size="13" fill="#94a3b8">
-      Engineering sovereign tools, autonomous AI agents &amp; hyper-optimized systems · Founder @ Velorio Labs
-    </text>
+  <!-- PCB Circuit Trace Elements (PFP Match) -->
+  <g stroke="#1e263c" stroke-width="1.2" fill="none">
+    <path d="M 680 70 L 740 70 L 760 90 L 850 90"/>
+    <circle cx="850" cy="90" r="3" fill="#38bdf8" stroke="none" opacity="0.6"/>
+    <path d="M 720 180 L 770 180 L 785 195 L 860 195"/>
+    <circle cx="860" cy="195" r="3" fill="#ff2a5f" stroke="none" opacity="0.6"/>
+    <text x="790" y="66" fill="#475569" font-family="'JetBrains Mono', monospace" font-size="10" stroke="none">[&gt;_SYS_NODE]</text>
   </g>
 
-  <!-- Bottom Interactive / Telemetry Badges -->
-  <g transform="translate(450, 242)" text-anchor="middle">
-    <!-- Pill 1: Velorio Labs -->
-    <g transform="translate(-250, 0)">
-      <rect x="-85" y="-14" width="170" height="28" rx="14" fill="#0d1527" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5" />
-      <text x="0" y="4" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#38bdf8">⚡ VELORIO LABS</text>
-    </g>
+  <!-- Top Status Pill (Left) -->
+  <g transform="translate(48, 30)">
+    <rect width="232" height="28" rx="14" fill="#0d0f18" stroke="#1f2538" stroke-width="1"/>
+    <circle class="red-beacon" cx="16" cy="14" r="4.5" fill="#ff2a5f"/>
+    <text x="30" y="18" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', monospace" font-size="11" font-weight="600" letter-spacing="0.5">CYBER-PHANTOM // ONLINE</text>
+  </g>
 
-    <!-- Pill 2: 30+ Flagships -->
-    <g transform="translate(0, 0)">
-      <rect x="-95" y="-14" width="190" height="28" rx="14" fill="#131c12" stroke="#ccff00" stroke-width="1" stroke-opacity="0.6" />
-      <text x="0" y="4" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#ccff00">🚀 30+ FLAGSHIPS LIVE</text>
-    </g>
+  <!-- Author ID Badge (Right) -->
+  <g transform="translate(684, 30)">
+    <rect width="188" height="28" rx="14" fill="#131018" stroke="#311928" stroke-width="1"/>
+    <text x="16" y="18" fill="#fda4af" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="0.8">ID: 307824291 // VARSHU</text>
+  </g>
 
-    <!-- Pill 3: Autonomous Agents -->
-    <g transform="translate(250, 0)">
-      <rect x="-85" y="-14" width="170" height="28" rx="14" fill="#1a1129" stroke="#a855f7" stroke-width="1" stroke-opacity="0.5" />
-      <text x="0" y="4" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#c084fc">🧠 AI AGENTS &amp; RECON</text>
-    </g>
+  <!-- Stylized Mask Vector Motif (Direct PFP Tribute) -->
+  <g transform="translate(735, 95)">
+    <!-- Hood Shadow -->
+    <path d="M 60 10 C 20 10 5 45 5 95 C 5 125 35 150 60 150 C 85 150 115 125 115 95 C 115 45 100 10 60 10 Z" fill="#0f121b" stroke="#1e2538" stroke-width="2"/>
+    <!-- White Porcelain Mask -->
+    <path d="M 60 25 C 35 25 24 50 24 85 C 24 110 45 130 60 130 C 75 130 96 110 96 85 C 96 50 85 25 60 25 Z" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.2"/>
+    <!-- Hollow Eyes -->
+    <ellipse cx="44" cy="76" rx="9" ry="14" fill="#08090d" transform="rotate(-12 44 76)"/>
+    <ellipse cx="76" cy="76" rx="9" ry="14" fill="#08090d" transform="rotate(12 76 76)"/>
+    <!-- Crimson Lightning Fracture (The Signature PFP Crack) -->
+    <path class="glitch-crack" d="M 58 26 L 53 45 L 61 60 L 52 78 L 57 95 L 48 115 L 53 129" fill="none" stroke="#ff2a5f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 61 60 L 70 70 L 66 82" fill="none" stroke="#1e293b" stroke-width="1" opacity="0.6"/>
+  </g>
+
+  <!-- Main Hero Title & Tagline -->
+  <text x="48" y="132" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="900" letter-spacing="-1">
+    VARSHU <tspan fill="#ff2a5f">DEV</tspan>
+  </text>
+  <text x="50" y="166" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="400" letter-spacing="0.2">
+    Software Architect · Systems Engineer · Sovereign Creator
+  </text>
+
+  <!-- Bottom Specification Chips -->
+  <g transform="translate(48, 222)">
+    <!-- Chip 1 -->
+    <rect width="168" height="34" rx="8" fill="#0d101a" stroke="#1d2338" stroke-width="1"/>
+    <circle cx="16" cy="17" r="3.5" fill="#38bdf8"/>
+    <text x="28" y="21" fill="#cbd5e1" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" font-weight="600">ANDROID &amp; KOTLIN</text>
+
+    <!-- Chip 2 -->
+    <rect x="180" y="0" width="168" height="34" rx="8" fill="#0d101a" stroke="#1d2338" stroke-width="1"/>
+    <circle cx="196" cy="17" r="3.5" fill="#ff2a5f"/>
+    <text x="208" y="21" fill="#cbd5e1" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" font-weight="600">NEXT.JS 16 &amp; REACT</text>
+
+    <!-- Chip 3 -->
+    <rect x="360" y="0" width="162" height="34" rx="8" fill="#0d101a" stroke="#1d2338" stroke-width="1"/>
+    <circle cx="376" cy="17" r="3.5" fill="#a855f7"/>
+    <text x="388" y="21" fill="#cbd5e1" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" font-weight="600">AUDIO DSP &amp; MEDIA3</text>
+
+    <!-- Chip 4 -->
+    <rect x="534" y="0" width="160" height="34" rx="8" fill="#0d101a" stroke="#1d2338" stroke-width="1"/>
+    <circle cx="550" cy="17" r="3.5" fill="#10b981"/>
+    <text x="562" y="21" fill="#cbd5e1" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" font-weight="600">SYSTEMS &amp; REVERSE</text>
+
+    <!-- Chip 5 -->
+    <rect x="706" y="0" width="166" height="34" rx="8" fill="#0d101a" stroke="#1d2338" stroke-width="1"/>
+    <circle cx="722" cy="17" r="3.5" fill="#f59e0b"/>
+    <text x="734" y="21" fill="#cbd5e1" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" font-weight="600">0% YAP // 100% SHIP</text>
   </g>
 </svg>

@@ -1,144 +1,111 @@
 <div align="center">
 
-<!-- Hero Cyberpunk Animated Banner -->
-<img src="https://raw.githubusercontent.com/VarshuDev/VarshuDev/main/assets/banner.svg" width="100%" alt="VarshuDev Cyber Banner" />
+<!-- Cyber-Phantom Hero Banner (Matched to PFP) -->
+<img src="assets/banner.svg" width="100%" alt="VarshuDev Cyber-Phantom Banner" />
 
 <br/><br/>
 
-<!-- Animated Typing SVG -->
+<!-- Animated Typing SVG (Crimson & Cyan) -->
 <a href="https://github.com/VarshuDev">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&pause=1000&color=CCFF00&center=true&vCenter=true&width=650&height=42&lines=Software+Architect+%E2%80%A2+Systems+Engineer;Founder+%40+Velorio+Labs;Autonomous+AI+Agents+%E2%80%A2+Reverse+Engineering;Low-Level+Systems+%E2%80%A2+Cyber+Recon;0%25+Yap+%E2%80%A2+100%25+Ship" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1000&color=FF2A5F&center=true&vCenter=true&width=680&height=44&lines=Software+Architect+%E2%80%A2+Systems+Engineer;Creator+of+Folio+Studio+%E2%80%A2+A1+Swaara;Audio+DSP+%E2%80%A2+Compilers+%E2%80%A2+Reverse+Eng;0%25+Yap+%E2%80%A2+100%25+Ship" alt="Typing Header" />
 </a>
 
 <br/>
 
-<!-- Badges Cluster -->
+<!-- Status Badges -->
 <p align="center">
-  <a href="https://github.com/VelorioLabs">
-    <img src="https://img.shields.io/badge/Founder-Velorio%20Labs-ccff00?style=for-the-badge&logo=github&labelColor=0d1117" alt="Velorio Labs" />
+  <a href="https://github.com/VarshuDev">
+    <img src="https://img.shields.io/badge/Identity-Cyber--Phantom-ff2a5f?style=for-the-badge&logo=target&logoColor=white&labelColor=08090d" alt="Identity" />
   </a>
-  <a href="https://veloriolabs.github.io">
-    <img src="https://img.shields.io/badge/Web_Portal-veloriolabs.github.io-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" alt="Web Portal" />
+  <a href="https://github.com/VarshuDev/folio">
+    <img src="https://img.shields.io/badge/Flagship-Folio_Studio-38bdf8?style=for-the-badge&logo=next.js&logoColor=white&labelColor=08090d" alt="Folio Studio" />
+  </a>
+  <a href="https://github.com/VarshuDev/A1Swaara">
+    <img src="https://img.shields.io/badge/Engine-A1_Swaara-a855f7?style=for-the-badge&logo=android&logoColor=white&labelColor=08090d" alt="A1 Swaara" />
   </a>
   <a href="https://github.com/VarshuDev">
-    <img src="https://img.shields.io/github/followers/VarshuDev?label=Followers&style=for-the-badge&color=38bdf8&labelColor=0d1117" alt="Followers" />
-  </a>
-  <a href="https://github.com/VarshuDev">
-    <img src="https://img.shields.io/github/stars/VarshuDev?style=for-the-badge&color=facc15&labelColor=0d1117" alt="Stars" />
+    <img src="https://img.shields.io/badge/Philosophy-0%25_Yap_·_100%25_Ship-10b981?style=for-the-badge&labelColor=08090d" alt="Vibe" />
   </a>
 </p>
 
 <!-- Cyber Terminal Telemetry Box -->
-```
-┌──────────────────────────────────────────────────────────────────────────────────┐
-│  > VARSHUDEV_KERNEL v3.0 // PRODUCTION NODE ONLINE                                │
-│  > RUNTIME STATUS : 30+ SOVEREIGN FLAGSHIPS ACTIVE · 0 CRITICAL CVEs             │
-<!-- TELEMETRY_START -->
-│  > ACTIVE NODE    : Tuesday, 03 Nov 2026 // TIMEZONE: ASIA/KOLKATA (IST)         │
-<!-- TELEMETRY_END -->
-│  > HYPERFOCUS     : AUTONOMOUS MULTI-AGENT SWARMS · HARDENED CRYPTO SANDBOXES    │
-│  > VIBE CHECK     : 0% YAP · 100% SHIP · 3:00 AM LOFI CODING SESSIONS            │
-│  > RULE #0        : "IF IT CAN BE AUTOMATED, IT SHOULD ALREADY BE IN PROD."       │
-└──────────────────────────────────────────────────────────────────────────────────┘
+```text
+┌────────────────────────────────────────────────────────────────────────┐
+│  > OPERATOR       : VarshuDev // CYBER-PHANTOM NODE ONLINE             │
+│  > CORE STACK     : KOTLIN 2.X · JETPACK COMPOSE · NEXT.JS 16 (TURBO)  │
+│  > AUDIO & DSP    : MEDIA3 EXOPLAYER · 32-BIT PCM · 320 KBPS LOSSLESS  │
+│  > PRIVACY SPEC   : ZERO TRACKING · ZERO COOKIES · CRYPTOGRAPHIC HMAC  │
+│  > PRIME DIRECTIVE: "BUILD WHAT CANNOT BE TAKEN DOWN."                 │
+└────────────────────────────────────────────────────────────────────────┘
 ```
 
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VarshuDev/VarshuDev/main/assets/cyber-divider.svg" width="100%" alt="Divider" />
+  <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 🚀 Core Flagships at [Velorio Labs](https://github.com/VelorioLabs)
+### ⚔️ Flagship Systems & Architectures
 
-> *Architecting sovereign, high-throughput engines, tactical intelligence platforms, and privacy-first containers.*
+> *Designing sovereign software, high-fidelity media engines, and zero-dependency compilers.*
 
-| Flagship System | Tactical Mission & Capability | Core Weapons Stack |
+| Flagship System | Architecture & Engineering Highlights | Stack |
 | :--- | :--- | :--- |
-| **🛰️ [AetherEye](https://github.com/VelorioLabs/AetherEye)** | Tactical Global Satellite, ADS-B Flight Radar & Maritime AIS Intelligence Terminal | `WebGL` • `Python` • `Canvas` • `OpenSky API` • `USGS` |
-| **⚡ [TeleVortex](https://github.com/VelorioLabs/TeleVortex)** | Universal 4K Media Decompiler, Lossless FFmpeg Video Trimmer & 320k Audio | `Python` • `aiogram 3.x` • `yt-dlp` • `FFmpeg` |
-| **🔐 [TeleVault-Drive](https://github.com/VelorioLabs/TeleVault-Drive)** | Infinite Encrypted Cloud Storage & Streaming Bridge (PBKDF2 + AES-256-GCM) | `Python` • `MTProto` • `Cryptography` |
-| **🛡️ [Termux-Vault](https://github.com/VelorioLabs/Termux-Vault)** | DoD 5220.22-M Multi-Pass File Shredder & AES-256 Authenticated Container Locker | `Python CLI` • `CSPRNG` • `Termux` |
-| **📡 [Termux-NetPulse](https://github.com/VelorioLabs/Termux-NetPulse)** | Subnet Radar, Hardware MAC Vendor OUI Lookup & DNS Latency Benchmark | `Python CLI` • `Sockets` • `DoH` |
-| **🎛️ [VibeSonic](https://github.com/VelorioLabs/VibeSonic)** | WebAudio DSP Digital Workstation, Vocal/Instrumental Isolation & 3D Visualizer | `TypeScript` • `React` • `WebAudio API` |
-| **🧠 [TeleSynth-AI](https://github.com/VelorioLabs/TeleSynth-AI)** | Multi-LLM Streaming Assistant (GPT-4o/Claude/Ollama) & Neural Edge-TTS Speech | `Python` • `aiogram` • `Edge-TTS` |
+| 🚀 **[Folio Studio](https://github.com/VarshuDev/folio)** | Opinionated developer portfolio studio & zero-dependency static compiler. Features 22 handcrafted art directions, cookieless HMAC-SHA256 privacy analytics, and 1-click Vercel REST deployment. | `Next.js 16` • `React 19` • `TypeScript` • `Turbopack` • `Supabase` |
+| 🎵 **[A1 Swaara (Source)](https://github.com/VarshuDev/A1Swaara)** | Sovereign native Android music streaming engine & studio suite. Streams 320 kbps unthrottled audio, 32-bit float PCM, 10-band hardware parametric EQ, synced karaoke lyrics, and real-time group Jams. | `Kotlin 2.x` • `Compose M3` • `Media3 ExoPlayer` • `Room SQLite` |
+| 📱 **[A1 Swaara (Release Hub)](https://github.com/VarshuDev/A1Swaara_apk)** | Production distribution hub for A1 Swaara, housing standalone Android APK packages (~28.8 MB) and the Windows PC Electron desktop edition with real-time spectrum analyzer. | `Android APK` • `Electron` • `Vite` • `WebAudio API` |
+| 📡 **[LocalDrop](https://github.com/VarshuDev/LocalDrop)** | Sovereign zero-cloud local P2P encrypted file transfer bridge. Instant LAN asset streaming with zero telemetry and zero external server dependency. | `TypeScript` • `WebRTC` • `Node.js` • `WebSocket` |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VarshuDev/VarshuDev/main/assets/cyber-divider.svg" width="100%" alt="Divider" />
+  <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 💻 Arsenal & Weapons of Choice
+### 💻 Weapons of Choice & Arsenal
 
 <div align="center">
 
-<!-- Modern Skill Icons Grid -->
+<!-- Modern Skill Icons Grid (Dark Theme) -->
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,typescript,go,rust,cpp,c,linux,docker,bash,react,nextjs,tailwind,postgres,redis,git,github,vscode,postman&theme=dark" alt="Skill Icons" />
+  <img src="https://skillicons.dev/icons?i=kotlin,androidstudio,ts,nextjs,react,tailwind,python,cpp,rust,linux,docker,bash,postgres,supabase,git,github,electron,figma&theme=dark" alt="Skill Icons" />
 </a>
 
 <br/><br/>
 
-<!-- Categorized Cyber Pills -->
-[![Python](https://img.shields.io/badge/Python_3.12+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![Go](https://img.shields.io/badge/Go_Lang-00ADD8?style=flat-square&logo=go&logoColor=white)](https://golang.org)
-[![Rust](https://img.shields.io/badge/Rust_Cargo-000000?style=flat-square&logo=rust&logoColor=white)](https://rust-lang.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript_5+-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://typescriptlang.org)
-[![Docker](https://img.shields.io/badge/Docker_Containers-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
-[![Linux](https://img.shields.io/badge/Linux_Kernel-FCC624?style=flat-square&logo=linux&logoColor=black)](https://kernel.org)
-[![FFmpeg](https://img.shields.io/badge/FFmpeg_Lossless-007808?style=flat-square&logo=ffmpeg&logoColor=white)](https://ffmpeg.org)
-[![AES-256](https://img.shields.io/badge/Crypto-AES--256--GCM-ccff00?style=flat-square&logo=lock&logoColor=black&labelColor=0d1117)](#)
-[![AI Agents](https://img.shields.io/badge/AI_Swarms-GPT--4o%20%7C%20Claude%20%7C%20Ollama-a855f7?style=flat-square&logo=openai&logoColor=white&labelColor=0d1117)](#)
+<!-- Categorized Cyber Badges -->
+[![Kotlin](https://img.shields.io/badge/Kotlin_2.x-7F52FF?style=flat-square&logo=kotlin&logoColor=white&labelColor=08090d)](https://kotlinlang.org)
+[![Android](https://img.shields.io/badge/Android_SDK-3DDC84?style=flat-square&logo=android&logoColor=white&labelColor=08090d)](https://developer.android.com)
+[![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white&labelColor=08090d)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript_5+-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=08090d)](https://typescriptlang.org)
+[![Media3](https://img.shields.io/badge/Media3_ExoPlayer-FF2A5F?style=flat-square&logo=android&logoColor=white&labelColor=08090d)](https://developer.android.com/media/media3)
+[![Supabase](https://img.shields.io/badge/Supabase_Postgres-3ECF8E?style=flat-square&logo=supabase&logoColor=white&labelColor=08090d)](https://supabase.com)
+[![Docker](https://img.shields.io/badge/Docker_Engine-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=08090d)](https://docker.com)
+[![Linux](https://img.shields.io/badge/Linux_Kernel-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=08090d)](https://kernel.org)
 
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VarshuDev/VarshuDev/main/assets/cyber-divider.svg" width="100%" alt="Divider" />
+  <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 📊 Live Telemetry & GitHub Activity
+### 📊 Live GitHub Activity & Signals
 
 <div align="center">
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=VarshuDev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=05070a&title_color=ccff00&icon_color=38bdf8&text_color=94a3b8" width="48.5%" alt="VarshuDev GitHub Stats" />
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=VarshuDev&layout=compact&theme=tokyonight&hide_border=true&bg_color=05070a&title_color=ccff00&text_color=94a3b8" width="48.5%" alt="Top Languages" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=VarshuDev&theme=tokyonight&hide_border=true&background=05070a&ring=ccff00&fire=ccff00&currStreakNum=ccff00&sideNums=38bdf8&sideLabels=94a3b8&currStreakLabel=ccff00" width="98%" alt="GitHub Streak Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=VarshuDev&show_icons=true&theme=tokyonight&bg_color=08090d&title_color=ff2a5f&icon_color=38bdf8&text_color=cbd5e1&border_color=1e2538&hide_border=false" alt="VarshuDev GitHub Stats" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=VarshuDev&theme=tokyonight&background=08090d&ring=ff2a5f&fire=ff2a5f&currStreakLabel=ff2a5f&currStreakNum=ffffff&sideLabels=38bdf8&sideNums=ffffff&border=1e2538" alt="GitHub Streak" height="165" />
 
 </div>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/VarshuDev/VarshuDev/main/assets/cyber-divider.svg" width="100%" alt="Divider" />
-</p>
-
-### 🌐 Transmit & Connect
-
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/VelorioLabs">
-        <img src="https://img.shields.io/badge/Organization-Velorio%20Labs-ccff00?style=for-the-badge&logo=github&labelColor=0d1117" alt="Velorio Labs" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://veloriolabs.github.io">
-        <img src="https://img.shields.io/badge/Official_Portal-veloriolabs.github.io-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0d1117" alt="Portal" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="mailto:gowdavarshan466@gmail.com">
-        <img src="https://img.shields.io/badge/Secure_Signal-gowdavarshan466%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email" />
-      </a>
-    </td>
-  </tr>
-</table>
 
 <br/>
 
-```
-> "Code sovereign. Move silent. Ship loud." — VarshuDev
+<p align="center">
+  <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
+</p>
+
+<div align="center">
+
+```text
+// END OF TRANSMISSION // VARSHUDEV // STAY SOVEREIGN //
 ```
 
 </div>
