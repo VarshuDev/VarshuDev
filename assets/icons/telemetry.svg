@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs>
+    <style>
+      @keyframes pulse-signal {
+        0% { stroke-dashoffset: 40; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes blip {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; filter: drop-shadow(0 0 4px rgba(255, 42, 95, 1)); }
+      }
+      .ecg {
+        stroke-dasharray: 20, 20;
+        animation: pulse-signal 1.8s linear infinite;
+      }
+      .beacon {
+        animation: blip 1.8s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+  <rect x="2" y="2" width="20" height="20" rx="4" fill="#0b0d17" stroke="#1d2338" stroke-width="1.2"/>
+  <path class="ecg" d="M 3 12 L 8 12 L 10 6 L 13 18 L 15 10 L 17 14 L 21 12" fill="none" stroke="#ff2a5f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle class="beacon" cx="13" cy="18" r="2" fill="#38bdf8"/>
+</svg>

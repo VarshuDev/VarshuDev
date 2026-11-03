@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs>
+    <style>
+      @keyframes glide-down {
+        0% { transform: translateY(-3px); opacity: 0.3; }
+        50% { opacity: 1; }
+        100% { transform: translateY(3px); opacity: 0.3; }
+      }
+      @keyframes pulse-box {
+        0%, 100% { stroke: #20cfff; }
+        50% { stroke: #ff2daa; }
+      }
+      .arrow {
+        animation: glide-down 1.4s ease-in-out infinite;
+      }
+      .tray {
+        animation: pulse-box 2.5s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+  <!-- Base Tray -->
+  <path class="tray" d="M 4 14 L 4 19 C 4 19.5 4.5 20 5 20 L 19 20 C 19.5 20 20 19.5 20 19 L 20 14" fill="none" stroke="#20cfff" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Gliding Arrow -->
+  <g class="arrow">
+    <path d="M 12 4 L 12 14 M 8 10 L 12 14 L 16 10" stroke="#ff2daa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

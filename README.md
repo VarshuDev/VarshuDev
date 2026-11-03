@@ -45,22 +45,22 @@
   <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
 </p>
 
-### ⚔️ Flagship Systems & Architectures
+### <img src="assets/icons/swords.svg" width="22" height="22" align="center" /> Flagship Systems &amp; Architectures
 
 > *Designing sovereign software, high-fidelity media engines, and zero-dependency compilers.*
 
-| Flagship System | Architecture & Engineering Highlights | Stack |
+| Flagship System | Architecture &amp; Engineering Highlights | Stack |
 | :--- | :--- | :--- |
-| 🚀 **[Folio Studio](https://github.com/VarshuDev/folio)** | Opinionated developer portfolio studio & zero-dependency static compiler. Features 22 handcrafted art directions, cookieless HMAC-SHA256 privacy analytics, and 1-click Vercel REST deployment. | `Next.js 16` • `React 19` • `TypeScript` • `Turbopack` • `Supabase` |
-| 🎵 **[A1 Swaara (Source)](https://github.com/VarshuDev/A1Swaara)** | Sovereign native Android music streaming engine & studio suite. Streams 320 kbps unthrottled audio, 32-bit float PCM, 10-band hardware parametric EQ, synced karaoke lyrics, and real-time group Jams. | `Kotlin 2.x` • `Compose M3` • `Media3 ExoPlayer` • `Room SQLite` |
-| 📱 **[A1 Swaara (Release Hub)](https://github.com/VarshuDev/A1Swaara_apk)** | Production distribution hub for A1 Swaara, housing standalone Android APK packages (~28.8 MB) and the Windows PC Electron desktop edition with real-time spectrum analyzer. | `Android APK` • `Electron` • `Vite` • `WebAudio API` |
-| 📡 **[LocalDrop](https://github.com/VarshuDev/LocalDrop)** | Sovereign zero-cloud local P2P encrypted file transfer bridge. Instant LAN asset streaming with zero telemetry and zero external server dependency. | `TypeScript` • `WebRTC` • `Node.js` • `WebSocket` |
+| <img src="assets/icons/compiler.svg" width="18" height="18" align="center" /> **[Folio Studio](https://github.com/VarshuDev/folio)** | Opinionated developer portfolio studio &amp; zero-dependency static compiler. Features 22 handcrafted art directions, cookieless HMAC-SHA256 privacy analytics, and 1-click Vercel REST deployment. | `Next.js 16` • `React 19` • `TypeScript` • `Turbopack` • `Supabase` |
+| <img src="assets/icons/equalizer.svg" width="18" height="18" align="center" /> **[A1 Swaara (Source)](https://github.com/VarshuDev/A1Swaara)** | Sovereign native Android music streaming engine &amp; studio suite. Streams 320 kbps unthrottled audio, 32-bit float PCM, 10-band hardware parametric EQ, synced karaoke lyrics, and real-time group Jams. | `Kotlin 2.x` • `Compose M3` • `Media3 ExoPlayer` • `Room SQLite` |
+| <img src="assets/icons/package.svg" width="18" height="18" align="center" /> **[A1 Swaara (Release Hub)](https://github.com/VarshuDev/A1Swaara_apk)** | Production distribution hub for A1 Swaara, housing standalone Android APK packages (~28.8 MB) and the Windows PC Electron desktop edition with real-time spectrum analyzer. | `Android APK` • `Electron` • `Vite` • `WebAudio API` |
+| <img src="assets/icons/broadcast.svg" width="18" height="18" align="center" /> **[LocalDrop](https://github.com/VarshuDev/LocalDrop)** | Sovereign zero-cloud local P2P encrypted file transfer bridge. Instant LAN asset streaming with zero telemetry and zero external server dependency. | `TypeScript` • `WebRTC` • `Node.js` • `WebSocket` |
 
 <p align="center">
   <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 💻 Weapons of Choice & Arsenal
+### <img src="assets/icons/chip.svg" width="22" height="22" align="center" /> Weapons of Choice &amp; Arsenal
 
 <div align="center">
 
@@ -87,7 +87,7 @@
   <img src="assets/cyber-divider.svg" width="100%" alt="Divider" />
 </p>
 
-### 📊 Live GitHub Activity & Signals
+### <img src="assets/icons/telemetry.svg" width="22" height="22" align="center" /> Live GitHub Activity &amp; Signals
 
 <div align="center">
 
